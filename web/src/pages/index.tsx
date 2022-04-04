@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import NextLink from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import Layout from "../components/Layout"
+import Layout from "components/Layout"
 import { Flex, Text, Link, Code, Heading, Box } from "@chakra-ui/react";
 
 const Home: NextPage = () => {

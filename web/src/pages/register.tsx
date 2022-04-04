@@ -1,8 +1,8 @@
 import { NextPage } from "next";
 import { Formik, Form } from "formik";
-import { Wrapper } from "../components/Wrapper";
+import { Wrapper } from "components/Wrapper";
 import { Box, Button } from "@chakra-ui/react";
-import { InputField } from "../components/InputField";
+import { InputField } from "components/InputField";
 interface IRegisterProps {}
 
 const Register: NextPage<IRegisterProps> = () => {
